@@ -3,19 +3,21 @@ package ie.atu.week4;
 import java.util.Scanner;
 
 public class Calc {
+    public static void main(String[] args) {
+
+    }
+
     public int multiply(int x,int y)
     {
         int z = x * y;
         return z;
     }
-    public static void main(String[] args) {
 
-
-    }
     public int subtract_Calc(int x, int y)
     {
         return (x-y); 
         }
+
     public static void AddCalc(){
         System.out.println("Please Enter Your First Number");
         Scanner inputs = new Scanner(System.in);
@@ -25,6 +27,6 @@ public class Calc {
         int secondNumber = inputs.nextInt();
 
         int total = firstNumber + secondNumber;
-        System.out.println("The total is " + total)
+        System.out.println("The total is " + total);
     }
 }
