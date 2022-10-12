@@ -7,13 +7,13 @@ public class Calc {
 
     }
 
-    public int multiply(int x,int y)
+    public static int multiply(int x,int y)
     {
         int z = x * y;
         return z;
     }
 
-    public int subtract_Calc(int x, int y)
+    public static int subtract_Calc(int x, int y)
     {
         return (x-y); 
         }
