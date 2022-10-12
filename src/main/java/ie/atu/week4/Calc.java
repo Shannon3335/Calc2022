@@ -25,6 +25,6 @@ public class Calc {
         int secondNumber = inputs.nextInt();
 
         int total = firstNumber + secondNumber;
-        System.out.println("The total is " + total)
+        System.out.println("The total is " + total);
     }
 }
