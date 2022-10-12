@@ -3,7 +3,13 @@ package ie.atu.week4;
 import java.util.Scanner;
 
 public class Calc {
+    public int multiply(int x,int y)
+    {
+        int z = x * y;
+        return z;
+    }
     public static void main(String[] args) {
+
 
     }
     public static void AddCalc(){
